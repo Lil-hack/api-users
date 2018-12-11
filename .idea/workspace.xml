@@ -101,7 +101,29 @@
       <change beforePath="$PROJECT_DIR$/../api.statonline/target/test-classes/hello/api/statistic/web/StatisticControllerTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../api.statonline/target/test-classes/hello/api/users/web/UsersControllerTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/api/users/repository/UserRepos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/api/users/repository/UserRepos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/api/users/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/api/users/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/api/users/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/api/users/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/api/users/web/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/api/users/web/UsersController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/api/users/web/UsersControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/api/users/web/UsersControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello/api/users/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello/api/users/model/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello/api/users/repository/UserRepos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello/api/users/security/passwordEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello/api/users/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello/api/users/service/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hello/api/users/web/UsersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hello/api/users/web/UsersControllerTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../scheduler/target/classes/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../scheduler/target/classes/hello/Application.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../scheduler/target/classes/hello/scheduler/ScheduledTasks.class" beforeDir="false" />
@@ -268,7 +290,7 @@
           <entry key="cs" value="2" />
           <entry key="html" value="1" />
           <entry key="java" value="127" />
-          <entry key="properties" value="27" />
+          <entry key="properties" value="29" />
           <entry key="xml" value="10" />
         </counts>
       </usages-collector>
@@ -279,7 +301,7 @@
           <entry key="HTML" value="1" />
           <entry key="JAVA" value="127" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="27" />
+          <entry key="Properties" value="29" />
           <entry key="XML" value="10" />
         </counts>
       </usages-collector>
@@ -287,20 +309,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hello/api/users/web/UsersController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#deleteUser#0;class#UsersController#0" />
-                <element signature="method#findAllUsers#0;class#UsersController#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../api.gateway/src/test/java/hello/api/gateway/GateWayTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -323,21 +331,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hello/Application.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="253">
+              <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="47" column="46" lean-forward="true" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/test/java/resources/messages/messages.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -353,7 +366,7 @@
         <entry file="file://$PROJECT_DIR$/../api.statistic/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="117">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="54" />
+              <caret line="39" selection-start-line="39" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -474,7 +487,6 @@
         <option value="$PROJECT_DIR$/../api.statonline/src/test/java/hello/api/statonline/web/StatOnlineControllerTest.java" />
         <option value="$USER_HOME$/Desktop/Unity-MNIST-master/Unity-Files/MNIST/Assets/Scripts/MNIST_Classifier.cs" />
         <option value="$USER_HOME$/Desktop/MNIST_Classifier.cs" />
-        <option value="$PROJECT_DIR$/src/test/java/resources/application.properties" />
         <option value="$PROJECT_DIR$/../api.statistic/src/test/java/resources/application.properties" />
         <option value="$PROJECT_DIR$/../api.statonline/src/test/java/resources/application.properties" />
         <option value="$PROJECT_DIR$/../api.statonline/src/main/java/hello/api/statonline/repository/StatOnlineRepos.java" />
@@ -495,6 +507,7 @@
         <option value="$PROJECT_DIR$/../api.statistic/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/../api.statonline/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -706,7 +719,28 @@
               <item name="api.user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api.user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api.user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api.user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -718,7 +752,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="A&#9;PSI&#9;JAVA://hello.Application" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544560581355" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544561229958" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Научная статья/api.user" />
@@ -927,7 +961,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27346277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -965,11 +998,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../scheduler/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../scheduler/src/main/resources/messages/messages.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1032,13 +1060,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
@@ -1297,7 +1318,7 @@
     <entry file="file://$PROJECT_DIR$/../api.statistic/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="54" />
+          <caret line="39" selection-start-line="39" selection-end-line="54" />
         </state>
       </provider>
     </entry>
@@ -1310,10 +1331,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="47" column="46" lean-forward="true" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+        <state relative-caret-position="253">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/messages/messages.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
