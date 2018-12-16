@@ -100,10 +100,7 @@
       <change beforePath="$PROJECT_DIR$/../api.statonline/target/test-classes/hello/api/gateway/GateWayTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../api.statonline/target/test-classes/hello/api/statistic/web/StatisticControllerTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../api.statonline/target/test-classes/hello/api/users/web/UsersControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/api/users/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/api/users/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/api/users/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/api/users/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/api/users/web/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/api/users/web/UsersController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scheduler/target/classes/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../scheduler/target/classes/hello/Application.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../scheduler/target/classes/hello/scheduler/ScheduledTasks.class" beforeDir="false" />
@@ -250,7 +247,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cs" value="28" />
-          <entry key="java" value="1481" />
+          <entry key="java" value="1507" />
           <entry key="properties" value="40" />
           <entry key="xml" value="4" />
         </counts>
@@ -258,7 +255,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C#" value="28" />
-          <entry key="JAVA" value="1481" />
+          <entry key="JAVA" value="1507" />
           <entry key="Properties" value="40" />
           <entry key="XML" value="4" />
         </counts>
@@ -319,11 +316,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hello/api/users/web/UsersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+            <state relative-caret-position="-680">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#deleteUser#0;class#UsersController#0" />
@@ -333,11 +330,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/hello/api/users/service/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="69" column="24" lean-forward="true" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+            <state relative-caret-position="253">
+              <caret line="66" column="58" lean-forward="true" selection-start-line="66" selection-start-column="58" selection-end-line="66" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -363,8 +360,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../api.gateway/src/main/java/hello/api/gateway/GateWay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="151" column="34" lean-forward="true" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
+            <state relative-caret-position="1623">
+              <caret line="165" column="44" selection-start-line="165" selection-start-column="44" selection-end-line="165" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -490,10 +487,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/../api.statistic/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/../api.statistic/src/main/java/hello/api/statistic/service/StatisticServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../api.gateway/src/main/java/hello/api/gateway/GateWay.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/api/users/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/api/users/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/api/users/web/UsersController.java" />
+        <option value="$PROJECT_DIR$/../api.gateway/src/main/java/hello/api/gateway/GateWay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/api/users/service/UserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -830,7 +827,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="A&#9;PSI&#9;JAVA://hello.Application" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544918682594" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544920658128" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../thymeleafexamples-petclinic-2.1-master" />
@@ -1039,6 +1036,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27346277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1381,18 +1379,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../api.gateway/src/main/java/hello/api/gateway/GateWay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="151" column="34" lean-forward="true" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
+        <state relative-caret-position="1623">
+          <caret line="165" column="44" selection-start-line="165" selection-start-column="44" selection-end-line="165" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1403,22 +1394,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/api/users/service/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="69" column="24" lean-forward="true" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hello/api/users/web/UsersController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+        <state relative-caret-position="-680">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#deleteUser#0;class#UsersController#0" />
             <element signature="method#findAllUsers#0;class#UsersController#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/api/users/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="66" column="58" lean-forward="true" selection-start-line="66" selection-start-column="58" selection-end-line="66" selection-end-column="58" />
         </state>
       </provider>
     </entry>

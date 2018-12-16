@@ -64,7 +64,9 @@ public class UserServiceImpl
     @Override
     public UserInfo loginUser(@Nonnull UserInfo userInfo) {
         User user = userRepos.findUsersByEmail(userInfo.getEmail());
-        if (user.getPassword().equals(userInfo.getPassword())) {
+     //   if (user.getPassword().equals(userInfo.getPassword())) {
+        if(user!=null)
+        {
             return createUserInfo(user);
         } else {
             return null;
