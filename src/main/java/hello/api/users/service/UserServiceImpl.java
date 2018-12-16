@@ -62,12 +62,12 @@ public class UserServiceImpl
 
     @Nullable
     @Override
-    public String loginUser(@Nonnull UserInfo userInfo) {
+    public UserInfo loginUser(@Nonnull UserInfo userInfo) {
         User user = userRepos.findUsersByEmail(userInfo.getEmail());
         if (user.getPassword().equals(userInfo.getPassword())) {
-            return "Success";
+            return createUserInfo(user);
         } else {
-            return "Error password";
+            return null;
 
         }
     }

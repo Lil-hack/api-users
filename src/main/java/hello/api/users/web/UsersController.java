@@ -109,13 +109,14 @@ public class UsersController {
         }
     }
     @PostMapping("/login")
-    public ResponseEntity<UUID> loginUser(@RequestBody UserInfo requestUserDetails) {
+    public ResponseEntity<UserInfo> loginUser(@RequestBody UserInfo requestUserDetails) {
         try {
-
-            if (userService.loginUser(requestUserDetails).equals("Success")) {
-                return new ResponseEntity(HttpStatus.OK);
-            } else {
+           UserInfo us= userService.loginUser(requestUserDetails);
+            if (us==null) {
                 return new ResponseEntity(HttpStatus.LOCKED);
+
+            } else {
+                return new ResponseEntity(us,HttpStatus.OK);
             }
 
         } catch (Exception e) {

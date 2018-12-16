@@ -19,7 +19,7 @@ public interface UserService {
     UUID registrationUser(@Nonnull UserInfo userinfo);
 
 
-    String loginUser(@Nonnull UserInfo userinfo);
+    UserInfo loginUser(@Nonnull UserInfo userinfo);
 
 
     void updateUser(@Nonnull UserInfo userinfo);
