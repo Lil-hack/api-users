@@ -15,6 +15,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/api-users")
 public class UsersController {
     private static final Logger logger = LoggerFactory.getLogger(UsersController.class);
