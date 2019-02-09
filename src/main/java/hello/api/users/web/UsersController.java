@@ -22,6 +22,7 @@ public class UsersController {
     private UserService userService;
 
 
+
     @GetMapping("/get{uuid}")
     public ResponseEntity<UserInfo> getUser(@RequestParam UUID uuid) {
         try {
