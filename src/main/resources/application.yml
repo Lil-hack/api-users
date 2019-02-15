@@ -1,6 +1,0 @@
-security:
-  oauth2:
-    resource:
-      userInfoUri: http://localhost:8080/validateUser
-server:
-  port: 9090
