@@ -77,8 +77,9 @@ public class UsersController {
     @GetMapping("/get{uuid}")
     public ResponseEntity<UserInfo> getUser(@RequestHeader(value="Authorization",required = false) String token,@RequestParam UUID uuid) {
         try {
-            if(!OauthCheckToken(token))
-                return   new ResponseEntity(HttpStatus.UNAUTHORIZED);
+            if(OauthCheckToken(token)==false) {
+                return new ResponseEntity(HttpStatus.FORBIDDEN);
+            }
 
             return new ResponseEntity(userService.findUserByUid(uuid), HttpStatus.OK);
         } catch (Exception e) {
@@ -90,8 +91,9 @@ public class UsersController {
     @PostMapping("/create")
     public ResponseEntity<UUID> createUser(@RequestHeader(value="Authorization",required = false) String token,@RequestBody UserInfo requestUserDetails) {
         try {
-            if(!OauthCheckToken(token))
-                return   new ResponseEntity(HttpStatus.UNAUTHORIZED);
+            if(OauthCheckToken(token)==false) {
+                return new ResponseEntity(HttpStatus.FORBIDDEN);
+            }
 
             UUID uuid= userService.registrationUser(requestUserDetails);
             if (uuid != null) {
@@ -110,8 +112,9 @@ public class UsersController {
     public ResponseEntity deleteUser(@RequestHeader(value="Authorization",required = false) String token,@RequestParam UUID uuid) {
 
         try {
-            if(!OauthCheckToken(token))
-                return   new ResponseEntity(HttpStatus.UNAUTHORIZED);
+            if(OauthCheckToken(token)==false) {
+                return new ResponseEntity(HttpStatus.FORBIDDEN);
+            }
 
             userService.deleteUser(uuid);
 
@@ -126,8 +129,9 @@ public class UsersController {
     public ResponseEntity updateUser(@RequestHeader(value="Authorization",required = false) String token,@RequestBody UserInfo requestUserDetails) {
         try {
 
-            if(!OauthCheckToken(token))
-                return   new ResponseEntity(HttpStatus.UNAUTHORIZED);
+            if(OauthCheckToken(token)==false) {
+                return new ResponseEntity(HttpStatus.FORBIDDEN);
+            }
             userService.updateUser(requestUserDetails);
 
             return new ResponseEntity(HttpStatus.OK);
@@ -140,8 +144,9 @@ public class UsersController {
     @PutMapping("/updateUUID")
     public ResponseEntity updateUuidUser(@RequestHeader(value="Authorization",required = false) String token,@RequestBody UserInfo requestUserDetails) {
         try {
-            if(!OauthCheckToken(token))
-                return   new ResponseEntity(HttpStatus.UNAUTHORIZED);
+            if(OauthCheckToken(token)==false) {
+                return new ResponseEntity(HttpStatus.FORBIDDEN);
+            }
 
            UUID newUuid=userService.updateUuidUser(requestUserDetails.getUid());
 
@@ -156,8 +161,9 @@ public class UsersController {
     public ResponseEntity updateVKUser(@RequestHeader(value="Authorization",required = false) String token,@RequestBody UserInfo requestUserDetails) {
         try {
 
-            if(!OauthCheckToken(token))
-                return   new ResponseEntity(HttpStatus.UNAUTHORIZED);
+            if(OauthCheckToken(token)==false) {
+                return new ResponseEntity(HttpStatus.FORBIDDEN);
+            }
             userService.updateVkUser(requestUserDetails);
 
             return new ResponseEntity(HttpStatus.OK);
@@ -169,8 +175,9 @@ public class UsersController {
     @PostMapping("/login")
     public ResponseEntity<UserInfo> loginUser(@RequestHeader(value="Authorization",required = false) String token,@RequestBody UserInfo requestUserDetails) {
         try {
-            if(!OauthCheckToken(token))
-                return   new ResponseEntity(HttpStatus.UNAUTHORIZED);
+            if(OauthCheckToken(token)==false) {
+                return new ResponseEntity(HttpStatus.FORBIDDEN);
+            }
            UserInfo us= userService.loginUser(requestUserDetails);
             if (us==null) {
                 return new ResponseEntity(HttpStatus.LOCKED);
@@ -193,7 +200,7 @@ public class UsersController {
         try {
             System.out.println("Authorization"+token);
             if(OauthCheckToken(token)==false) {
-                return new ResponseEntity(HttpStatus.UNAUTHORIZED);
+                return new ResponseEntity(HttpStatus.FORBIDDEN);
             }
 
             List<UserInfo> users = userService.findAllUsers();
