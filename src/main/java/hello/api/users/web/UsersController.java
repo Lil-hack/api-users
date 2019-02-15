@@ -189,10 +189,12 @@ public class UsersController {
 
 
     @GetMapping("/getAll")
-    public ResponseEntity<List<UserInfo>> findAllUsers(@RequestHeader(value="Authorization",required = false) String token) {
+    public ResponseEntity findAllUsers(@RequestHeader(value="Authorization",required = false) String token) {
         try {
-            if(!OauthCheckToken(token))
-                return   new ResponseEntity(HttpStatus.UNAUTHORIZED);
+            System.out.println("Authorization"+token);
+            if(OauthCheckToken(token)!=false) {
+                return new ResponseEntity(HttpStatus.UNAUTHORIZED);
+            }
 
             List<UserInfo> users = userService.findAllUsers();
 
