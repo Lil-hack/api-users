@@ -192,7 +192,7 @@ public class UsersController {
     public ResponseEntity findAllUsers(@RequestHeader(value="Authorization",required = false) String token) {
         try {
             System.out.println("Authorization"+token);
-            if(OauthCheckToken(token)!=false) {
+            if(OauthCheckToken(token)==false) {
                 return new ResponseEntity(HttpStatus.UNAUTHORIZED);
             }
 
