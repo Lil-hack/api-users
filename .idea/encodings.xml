@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/../../1/spring-petclinic-master/src/main/resources/application.properties" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../api.gateway" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../api.statistic" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../api.statonline" charset="UTF-8" />
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/../api-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../scheduler" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../../spring-petclinic-master/src/main/resources/application.properties" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../../spring-petclinic-master/src/main/resources/application.properties" charset="UTF-8" />
   </component>
 </project>

@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/../api.statistic/pom.xml" />
         <option value="$PROJECT_DIR$/../api.statonline/pom.xml" />
         <option value="$PROJECT_DIR$/../scheduler/pom.xml" />
+        <option value="$PROJECT_DIR$/../api-gateway/pom.xml" />
       </list>
     </option>
   </component>
